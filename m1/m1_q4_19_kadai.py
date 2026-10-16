@@ -11,6 +11,6 @@ elif id_a == id(a):
 else:
     result = 'D'
 print(result)
-print(id(a))
-print(id_a)
-print(type(id_a))
+print(id(a))  #変数 a のIDを表示する。
+print(id_a)  #変数 id_a に保存したIDを表示るる
+print(type(id_a))  #id_a のデータ型を表示する
